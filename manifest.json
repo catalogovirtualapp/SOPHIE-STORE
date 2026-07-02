@@ -1,0 +1,30 @@
+{
+  "name": "Catálogo Virtual",
+  "short_name": "",
+  "description": "Catálogo virtual rápido, moderno y profesional.",
+  "lang": "es",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff7fa",
+  "theme_color": "#D48AA2", /*CAMBIAR ACA*/
+  "categories": [
+    "shopping",
+    "business"
+  ],
+  "icons": [
+    {
+      "src": "assets/icons/logo192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/logo512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

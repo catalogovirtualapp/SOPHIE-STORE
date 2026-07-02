@@ -1,0 +1,144 @@
+:root{
+  /* =========================
+     COLORES PRINCIPALES
+     Cambia estos colores para adaptar la plantilla a otro cliente
+  ========================= */
+
+  --primary:#D48AA2; /*ACA CAMBIAR*/
+  --primary-dark:#C87892; /*ACA CAMBIAR*/
+  --primary-soft:#FDF5F8; /*ACA CAMBIAR*/
+
+  --secondary:#111827;
+  --accent:#ffb703;
+
+  --success:#2E8B57; /*ACA CAMBIAR*/
+  --success-dark:#0f8a39;
+
+  --danger:#ef4444;
+  --warning:#f59e0b;
+
+  /* =========================
+     FONDOS
+  ========================= */
+
+  --bg-page:#FFF9FB; /*ACA CAMBIAR*/
+  --bg-card:#ffffff;
+  --bg-header:var(--primary);
+  --bg-footer:var(--primary);
+  --bg-modal:#ffffff;
+  --bg-input:#ffffff;
+  --bg-muted:#f8fafc;
+
+  /* =========================
+     TEXTOS
+  ========================= */
+
+  --text-title:#111827;
+  --text-main:#1f2937;
+  --text-muted:#6b7280;
+  --text-light:#ffffff;
+  --text-footer:#ffffff;
+
+  /* =========================
+     PRECIOS
+  ========================= */
+
+  --price:#D6336C; /*ACA CAMBIAR*/
+  --old-price:#D6336C; /*ACA CAMBIAR*/
+  --discount:var(--primary);
+  --wholesale:var(--primary);
+
+/* =========================
+   MAYOREO EN TARJETA
+========================= */
+
+--wh-bg:#ffffff;
+--wh-border:#e5e7eb;
+--wh-title:#374151;
+--wh-icon:#6b7280;
+--wh-tier:#111827;
+--wh-price:var(--primary);
+--wh-radius:10px;
+  
+  /* =========================
+     BOTONES
+  ========================= */
+
+  --btn-primary:var(--primary);
+  --btn-primary-hover:var(--primary-dark);
+
+  --btn-detail:#111111;
+  --btn-video:#111111;
+  --btn-share:#ffffff;
+  --btn-whatsapp:#16a34a;
+  --btn-whatsapp-hover:#0f8a39;
+
+  --btn-text-light:#ffffff;
+  --btn-text-dark:#111827;
+
+  /* =========================
+     CATEGORÍAS
+  ========================= */
+
+  --category-bg:#ffffff;
+  --category-text:#111827;
+  --category-active:var(--primary);
+  --category-active-text:#ffffff;
+
+  /* =========================
+     TARJETAS
+  ========================= */
+
+  --card-radius:18px;
+  --card-border:#eeeeee;
+  --card-shadow:0 10px 30px rgba(17,24,39,.08);
+  --card-shadow-hover:0 18px 45px rgba(17,24,39,.14);
+
+  /* =========================
+     MODAL / CARRITO
+  ========================= */
+
+  --modal-shadow:0 25px 80px rgba(0,0,0,.18);
+  --overlay:rgba(17,24,39,.42);
+
+  --cart-bg:#ffffff;
+  --cart-border:#eeeeee;
+
+  /* =========================
+     VARIANTES
+  ========================= */
+
+  --option-border:#e5e7eb;
+  --option-active:#ff2b6d;
+  --option-disabled:#eeeeee;
+  --stock-bg:#eaf8ef;
+  --stock-text:#087a2f;
+
+  /* =========================
+     FORMAS Y ESPACIADOS
+  ========================= */
+
+  --radius-xs:8px;
+  --radius-sm:12px;
+  --radius-md:16px;
+  --radius-lg:22px;
+  --radius-xl:30px;
+
+  --shadow-sm:0 4px 14px rgba(0,0,0,.08);
+  --shadow-md:0 10px 30px rgba(0,0,0,.12);
+  --shadow-lg:0 18px 50px rgba(0,0,0,.18);
+
+  /* =========================
+     TIPOGRAFÍAS
+  ========================= */
+
+  --font-title:'Fredoka', sans-serif;
+  --font-main:'Poppins', sans-serif;
+
+  /* =========================
+     TAMAÑOS
+  ========================= */
+
+  --header-height:86px;
+  --container-max:1280px;
+}
